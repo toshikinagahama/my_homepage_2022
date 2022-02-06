@@ -14,9 +14,11 @@ export default function Home() {
       <div className="absolute w-screen h-screen -z-10">
         <Canvas_Three />
       </div>
-      <div className="absolute container min-h-screen">
-        <h1>hello</h1>
-      </div>
+      {/* <div className="container mx-auto min-h-screen bg-gray-100 bg-opacity-70">
+        <div className="">
+          <h1>hello</h1>
+        </div>
+      </div> */}
     </div>
   );
 }
